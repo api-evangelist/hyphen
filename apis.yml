@@ -1,7 +1,25 @@
 aid: hyphen
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hyphen.png
 name: Hyphen
-description: Hyphen is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Hyphen was a mobile-first employee engagement and pulse-survey platform that let organizations
+  collect anonymous employee feedback, run continuous sentiment surveys, and give managers analytics
+  on engagement and culture. Founded as a 500 Global-backed startup, Hyphen was acquired by Betterworks
+  and folded into the Betterworks Engage product line. Its original domain, gethyphen.com, now
+  301-redirects to betterworks.com/product/engage-overview/, and the company no longer operates an
+  independent public developer or API surface. This profile is retained as an acquired-company lead in
+  the API Evangelist network; the live successor product is Betterworks Engage.
 url: https://raw.githubusercontent.com/api-evangelist/hyphen/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +27,22 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: betterworks
+x-successor-product: https://www.betterworks.com/product/engage-overview/
+x-note: gethyphen.com 301-redirects to Betterworks Engage; no independent Hyphen developer/API surface remains.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Employee Engagement
+- Human Resources
+- Surveys
+- Employee Feedback
+- Sentiment Analysis
+- HR Tech
+- Pulse Surveys
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/hyphen-domain-security.yml
 - type: Website
   url: https://gethyphen.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
