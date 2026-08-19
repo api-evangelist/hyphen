@@ -31,7 +31,7 @@ x-status: acquired
 x-acquired-by: betterworks
 x-successor-product: https://www.betterworks.com/product/engage-overview/
 x-note: gethyphen.com 301-redirects to Betterworks Engage; no independent Hyphen developer/API surface remains.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
