@@ -61,6 +61,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/betterworks/
+  name: Betterworks
+  x-relationship: acquired
+  x-evidence: "Founded as a 500 Global-backed startup, Hyphen was acquired by Betterworks and folded into the Betterworks Engage product line."
 - type: DomainSecurity
   url: security/hyphen-domain-security.yml
 - type: Website
